@@ -10,6 +10,11 @@ def calc(a, b):
     return a + b
 
 
+def super_calc(a, c, b):
+    return eval(a, c, b)
+
+
 if __name__ == '__main__':
     print_hi('PyCharm')
     print(calc(10, 15))
+    print(super_calc(10, '/', 15))
