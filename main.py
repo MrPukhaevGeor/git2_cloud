@@ -1,6 +1,8 @@
 def print_hi(name):
     print(f'Hi, {name}')
     print('Изменения в файле')
+    print('еще что то меняю')
+
 
 
 if __name__ == '__main__':
